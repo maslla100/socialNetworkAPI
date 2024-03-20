@@ -1,6 +1,5 @@
-const Student = require('./User');
-const Course = require('./Reaction');
-const Course = require('./Thought');
+const User = require('./User');
+const Thought = require('./Thought');
+const Reaction = require('./Reaction'); // Assuming you meant to import and export the Reaction schema for use in Thought model
 
-
-module.exports = { User, Reaction, Thought };
+module.exports = { User, Thought, Reaction };
